@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/connectionMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CONNECTING"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:layout_marginTop="20dp" 
+        android:gravity="center_horizontal"/>
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="30dip"
+        android:layout_height="0dip"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_weight="60"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@drawable/progress_spin"
+        android:indeterminateDuration="3500" />
+
+</LinearLayout>

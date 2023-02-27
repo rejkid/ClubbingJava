@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <string name="app_name">Clubbing is fun - in moderation</string>  
+    <string name="ask4IdAndName">Please enter the user unique ID and its name</string>  
+    <string name="CONNECTING">Trying to connect to the server&#8230;</string>
+    <string name="CONNECTED">Connected</string>
+    <string name="ERROR">Error</string>
+    <string name="ADVISORY_POSTFIX_STR">. Please consider moving to an area with a better reception.</string>
+    <string name="ADVISORY_PREFIX_STR">Can\'t connect: </string>
+    <string name="OK">Ok</string>  
+</resources>  
